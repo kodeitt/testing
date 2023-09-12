@@ -59,13 +59,13 @@
                 <a class="nav-link" href="{% static 'index.html' %}">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="#Services"> Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% static 'service.html' %}">Services</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
             <div class="quote_btn-container">
@@ -115,7 +115,7 @@
   </div>
 
   <!-- service section -->
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" id="Services">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -182,7 +182,7 @@
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Vault
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -203,7 +203,7 @@
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Calender
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -211,18 +211,13 @@
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
-      </div>
     </div>
   </section>
   <!-- end service section -->
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding" id="About">
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
@@ -233,14 +228,8 @@
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              We're dedicated to bringing the justice system into the digital age, providing convenient and accessible solutions for legal proceedings. Our platform streamlines court processes, ensuring efficiency and transparency in virtual hearings and trials. We're committed to delivering a seamless online experience for judges, attorneys, litigants, and the public alike, as we work to redefine the future of legal proceedings.
             </p>
-            <a href="readmore">
-              Read More
-            </a>
           </div>
         </div>
         <div class="col-md-6 ">
@@ -257,197 +246,38 @@
 
   <!-- case section -->
 
-  <section class="case_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Our Case Studies
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="{% static 'images/case-1.jpg' %}" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Sit amet consectetur adipisicing elit
-              </h5>
-              <p>
-                Alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-              </p>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="{% static 'images/case-2.jpg' %}" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Excepturi placeat nihil eos maxime
-              </h5>
-              <p>
-                Alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-              </p>
-              <a href="">
-                <span>
-                  Read More
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end case section -->
-
-  <!-- client section -->
-  <section class="client_section ">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Testimonial
-        </h2>
-      </div>
-    </div>
-    <div id="customCarousel2" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="{% static 'images/prakash.jpg' %} " alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Parakash
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      dey maaplaingala its working da
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="{% static 'images/client.jpg' %}" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Morojink
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      dey maaplaingala it's working da
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="{% static 'images/client.jpg' %}" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <div class="client_info">
-                      <div class="client_name">
-                        <h5>
-                          Morojink
-                        </h5>
-                        <h6>
-                          Customer
-                        </h6>
-                      </div>
-                      <i class="fa fa-quote-left" aria-hidden="true"></i>
-                    </div>
-                    <p>
-                      Dey maaplaingala it's working da
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ol class="carousel-indicators">
-        <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
-        <li data-target="#customCarousel2" data-slide-to="1"></li>
-        <li data-target="#customCarousel2" data-slide-to="2"></li>
-      </ol>
-    </div>
-  </section>
-  <!-- end client section -->
 
 
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding" id="contact">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-5 col-lg-4 offset-md-1">
           <div class="form_container">
             <div class="heading_container">
               <h2>
-                Request A Call back
+                Feedback Form
               </h2>
             </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Full Name " />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone number" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
+            <form action="https://formspree.io/f/maygbykn"  method="POST">
+              <label>
+                Name
+                <input type="text" name="Full Name " />
+              </label>
+              <label>
+                E-Mail
+                <input type="email" name="Email" />
+              </label>
+              <label>
+                Phone number
+                <input type="text" name="Phone number" />
+              </label>
+              <label>
+                Message
+                <input type="text" class="message-box" name="Message" />
+              </label>
               <div class="d-flex ">
                 <button>
                   SEND
@@ -478,10 +308,10 @@
           <div class="col-md-6 col-lg-3 ">
             <div class="info_detail">
               <h4>
-                Digian
+                Virtual Court
               </h4>
               <p>
-                Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+              Our mission is to provide a seamless and secure virtual courtroom experience for all participants. Your trust in our system is important to us as we continue to innovate and improve the delivery of justice. For any inquiries or assistance, please don't hesitate to contact our support team.
               </p>
             </div>
           </div>
@@ -524,21 +354,15 @@
               </h4>
               <div class="contact_link_box">
                 <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span>
-                    Location
-                  </span>
-                </a>
-                <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    Call +01 1234567890
+                    Call +91 9486343033
                   </span>
                 </a>
-                <a href="">
+                <a href="mailto:kodeeitt@gmail.com">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                    demo@gmail.com
+                    kodeeitt@gmail.com
                   </span>
                 </a>
               </div>
